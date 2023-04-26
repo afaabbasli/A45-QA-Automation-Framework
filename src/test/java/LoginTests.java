@@ -44,6 +44,6 @@ public class LoginTests extends BaseTest {
     public static void isAvatarDisplayed() {
         WebElement avatarIcon = driver.findElement(By.cssSelector("img[class='avatar']"));
         Assert.assertTrue(avatarIcon.isDisplayed());
-//        Assert.assertEquals(avatarIcon.isDisplayed(), true);
+        //        Assert.assertEquals(avatarIcon.isDisplayed(), true);
     }
 }
