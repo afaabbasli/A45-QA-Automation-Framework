@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Homework_16 {
+public class Homework_16 extends BaseTest {
 
     @Test
     public static void registrationNavigation(){
@@ -32,7 +32,6 @@ public class Homework_16 {
 //Verify redirect to Registration page using Assert method
         String registrationUrl = "https://bbb.testpro.io/registration.php";
         Assert.assertEquals(driver.getCurrentUrl(), registrationUrl);
-
 
 // quit driver
         driver.quit();
